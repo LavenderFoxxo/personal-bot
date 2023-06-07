@@ -1,0 +1,29 @@
+{
+  "name": "alexanders-brain-tumor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "start": "tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sapphire/framework": "^4.4.4",
+    "@sapphire/plugin-api": "^5.0.4",
+    "@types/cron": "^2.0.1",
+    "@types/spotify-web-api-node": "^5.0.7",
+    "chalk": "^4",
+    "cron": "^2.3.1",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.1.4",
+    "nodemon": "^2.0.22",
+    "spotify-web-api-node": "^5.0.2",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.5.3",
+    "typescript": "^5.1.3"
+  }
+}
